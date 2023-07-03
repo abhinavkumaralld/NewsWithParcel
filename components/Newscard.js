@@ -13,7 +13,7 @@ export default Newscard = ({ article }) => {
         <p className="text-right h-10">{article?.author?.slice(0, 10)} ...</p>
         <a href={article?.url}>
           <button className="bg-blue-600 rounded-md mx-0 my-2 w-24 h-8  text-white">
-            See more
+            Read more
           </button>
         </a>
       </div>
